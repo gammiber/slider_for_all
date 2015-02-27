@@ -1,0 +1,25 @@
+body{
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+h2{
+	margin: 0 10px;
+	font-size: 18px;
+}
+p{
+	margin: 10px;
+	line-height: 1.5;
+}
+img, iframe{
+	max-width: 400px;
+	max-height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.slider1, .slider2, .slider3{
+	margin: 40px auto 0;
+}

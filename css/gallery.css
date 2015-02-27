@@ -1,0 +1,70 @@
+.slider{
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 30px;
+}
+.slider .wrapper:after{
+	display: block;
+	width: 100%;
+	height: 1%;
+	clear: both;
+	overflow: hidden;
+	content: '';
+}
+.slider .btn_arrow{
+	position: absolute;
+	display: block;
+	top: 0;
+	z-index: 10;
+	width: 20px;
+	height: 100%;
+	text-decoration: none;
+	background-image:  url(../img/arrow.png);
+	background-color: #f5f9fb;
+	background-repeat: no-repeat;
+}
+.slider .btn_left{
+	left: 0;
+	background-position: 6px 50%;
+}
+.slider .btn_right{
+	right: 0;
+	background-position: -12px 50%;
+}
+.slider .btn_left:hover{ background-position: -34px 50%; }
+.slider .btn_right:hover{ background-position: -52px 50%; }
+.slider .item{
+	overflow: hidden;
+	position: relative;
+	float: left;
+	margin: 0 20px;
+}
+.paging{
+	display: table;
+	margin: 7px auto 0;
+	width: auto;
+}
+.paging li{
+	display:table-cell;
+	padding: 0 5px;
+}
+.paging li.active a{
+	color: #ffffff;
+	background-color: #ffdbad;
+}
+.paging a{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	color: #c9c9c9;
+	font-size: 9px;
+	line-height: 18px;
+	text-align: center;
+	border-radius: 50%;
+	text-decoration: none;
+	background-color: #f5f9fb;
+}
+.paging a:hover{
+	color: #ffffff;
+	background-color: #444444;
+}
