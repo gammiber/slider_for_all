@@ -57,8 +57,7 @@ jQuery.fn.slider = function(width, height, speed){
 	
 	$('.paging a', elem).click(function(e){
 		e.preventDefault();
-		var number = $(this).parent().attr('data-page');
-		console.log(number);
+		var number = $(this).parent().attr('data-page');		
 		marginLeft = -width * number;
 		motion(marginLeft);
 		$('.paging li', elem).removeClass('active');
